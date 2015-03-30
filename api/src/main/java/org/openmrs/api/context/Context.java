@@ -451,7 +451,7 @@ public class Context {
 	 * @return order service
 	 */
 	public static OrderService getOrderService() {
-		return getServiceContext().getOrderService();
+		return getServiceContext().getOrderService(); //
 	}
 	
 	/**
